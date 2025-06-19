@@ -35,3 +35,6 @@ models/
 # === Misc ===
 *.bak
 *.tmp
+
+* text=auto
+
