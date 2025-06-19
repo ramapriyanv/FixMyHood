@@ -27,8 +27,6 @@ FixMyHood/
 │   ├── src/
 │   │   ├── ChatAssistant.js
 │   │   ├── ViewReports.js
-│   │   ├── Login.js
-│   │   ├── Register.js
 │   │   └── App.js
 │   ├── public/
 │   └── package.json
