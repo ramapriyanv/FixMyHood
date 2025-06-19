@@ -112,5 +112,5 @@ This project uses a **local LLM** for the AI assistant via [Ollama](https://olla
 
 ## 📜 License
 
-MIT License — free to use, modify, and distribute.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
