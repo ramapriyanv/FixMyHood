@@ -1,20 +1,21 @@
-FixMyHood 🏙️
-A full-stack civic issue reporting app with an integrated AI-powered assistant. Users can report problems in their neighborhood — such as potholes, broken streetlights, or trash dumps — through a simple chat-based interface. Admins or users can review and manage submitted reports.
+# FixMyHood 🏙️
 
-🚀 Features
-💬 AI Assistant Interface: Chat-style form that guides users through issue reporting.
+A full-stack civic issue reporting app with an integrated AI-powered assistant. Users can report problems in their neighborhood — such as potholes, broken streetlights, or trash dumps — through a simple chat-based interface.
 
-📷 Image Uploads: Attach images with each issue report.
+---
 
-🌗 Dark/Light Mode: Toggle between themes with a single click.
+## 🚀 Features
 
-🔐 Authentication (optional): Users must log in to report; only the creator or admin can delete.
+- 💬 **AI Assistant Interface**: Chat-style form that guides users through issue reporting.
+- 📷 **Image Uploads**: Attach images with each issue report.
+- 🌗 **Dark/Light Mode**: Toggle between themes with a single click.
+- 🌐 **React + Flask**: Frontend built with React, backend powered by Flask + SQLite.
 
-🛠️ Admin Dashboard (planned): Moderate and manage reports.
+---
 
-🌐 React + Flask: Frontend built with React, backend powered by Flask + SQLAlchemy.
+## 📁 Project Structure
 
-📁 Project Structure
+```
 FixMyHood/
 ├── backend/
 │   ├── app.py
@@ -33,33 +34,65 @@ FixMyHood/
 │   └── package.json
 ├── .gitignore
 └── README.md
+```
 
+---
 
-Local AI model
+## 🛠️ Tech Stack
 
-🧪 Local Setup Instructions
-1. Clone the repo
+| Frontend        | Backend        | Auth           | Database  | AI Assistant   |
+|-----------------|----------------|----------------|-----------|----------------|
+| React           | Flask          | JWT (optional) | SQLite    | Local AI model |
+
+---
+
+## 🧪 Local Setup Instructions
+
+### 1. Clone the repo
+
+```bash
 git clone https://github.com/ramapriyanv/FixMyHood.git
 cd FixMyHood
+```
 
-2. Backend Setup (Python 3.11+)
+### 2. Backend Setup (Python 3.11+)
+
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 Run Flask backend:
 
+```bash
 cd backend
 python app.py
+```
 
-3. Frontend Setup
+### 3. Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm run build
+```
 
 Then copy the build:
 
+```bash
 xcopy /E /I /Y build ..\backend\frontend\build
+```
 
-🧠 AI Assistant
-The assistant is currently powered by a local AI model using tools like Ollama or LM Studio. It asks the user structured questions and submits the form data with an optional image upload.
+---
+
+## 🧠 AI Assistant
+
+The assistant is currently powered by a **local AI model** using [Ollama](https://ollama.com/). It asks the user structured questions and submits the form data with optional image upload.
+
+---
+
+## 📜 License
+
+MIT License — free to use, modify, and distribute.
+
