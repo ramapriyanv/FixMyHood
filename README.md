@@ -40,9 +40,9 @@ FixMyHood/
 
 ## 🛠️ Tech Stack
 
-| Frontend        | Backend        | Auth           | Database  | AI Assistant   |
-|-----------------|----------------|----------------|-----------|----------------|
-| React           | Flask          | JWT (optional) | SQLite    | Local AI model |
+| Frontend        | Backend        | Database  | AI Assistant   |
+|-----------------|----------------|-----------|----------------|
+| React           | Flask          | SQLite    | Local AI model |
 
 ---
 
