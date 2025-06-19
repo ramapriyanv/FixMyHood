@@ -1,0 +1,37 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.env.*
+
+# Flask uploads and cache
+backend/uploads/
+instance/
+*.log
+
+# === Node.js / React ===
+node_modules/
+frontend/node_modules/
+frontend/build/
+*.tgz
+
+# === VSCode / System files ===
+.vscode/
+.DS_Store
+Thumbs.db
+
+# === AI / LLMs (local models, Ollama, etc.) ===
+models/
+*.gguf
+*.ggml
+*.pth
+*.bin
+*.ckpt
+
+# === Misc ===
+*.bak
+*.tmp
