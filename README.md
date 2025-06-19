@@ -86,9 +86,27 @@ xcopy /E /I /Y build ..\backend\frontend\build
 
 ---
 
-## 🧠 AI Assistant
+## 🧠 AI Assistant (Powered by Ollama)
 
-The assistant is currently powered by a **local AI model** using [Ollama](https://ollama.com/). It asks the user structured questions and submits the form data with optional image upload.
+This project uses a **local LLM** for the AI assistant via [Ollama](https://ollama.com/).
+
+### Steps to enable the assistant:
+
+1. **Download and install Ollama**  
+   👉 https://ollama.com/download
+
+2. **Start Ollama and run a model locally**  
+   For example:
+
+   ```bash
+   ollama run mistral
+   ```
+
+3. **Make sure it runs at http://localhost:11434** (default)
+
+4. You’re all set! The assistant in the React app will now communicate with this local AI model.
+
+> 💡 You can also swap out the model (like `llama3`, `phi3`, etc.) depending on your needs.
 
 ---
 
